@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "SF Pro Display";
+}
+body{
+    min-height: 100vh;
+    background-image: url("../img/pexels-adam-kontor-539282.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+/*--------------- NAVBAR ------------------------------------*/
+/*-------DERECHA-----------*/
+.main-nav{
+    height: 50px;
+    list-style: none;
+    background: #238276;
+}
+.main-nav .main-nav_item{
+    display: inline-block;
+    margin: 10px 10px;
+    float: left;
+}
+.main-nav .main-nav_item a{
+    font-size: 16px;
+    text-decoration: none;
+    color: #eeeeee;
+}
+.main-nav .main-nav_item a:hover{
+    color: #fff;
+}
+.main-nav .main-nav_item a span:hover{
+    color: #eee;
+}
+.main-nav .main-nav_item a img{
+    width: 30px;
+    height: auto;
+    margin: auto 10px auto 0;
+}
+/*-------IZQUIERDA-----------*/
+.main-nav .login-container {
+    margin: 10px 0 0 0;
+    float: right;
+}
+input[type=text], input[type=password] {
+    font-family: "SF Pro Display";
+    padding: 4px;
+    font-size: 14px;
+    border: none;
+    width:120px;
+    border-radius: 10px;
+}
+.main-nav .login-container button[type=button] a{
+    text-decoration: none;
+    color: #EEEEEE;
+}
+.main-nav .login-container button[type=button] a:hover{
+    color: #FFFFFF;
+}
+.main-nav .login-container button[type=button]{
+    font-family: "SF Pro Display";
+    float: right;
+    padding: 4px 10px;
+    margin: 0 10px 0 5px;
+    background-color: #68Be4C;
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+    letter-spacing: 1px;
+    border-radius: 10px;
+}
+.main-nav .login-container button[type=submit]{
+    font-family: "SF Pro Display";
+    float: right;
+    padding: 4px 10px;
+    margin: 0 0 0 5px;
+    background-color: #fc6c14;
+    color: #eeeeee;
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.login-container button:hover {
+    background-color: green;
+}
+.login-container button[type=submit]:hover {
+    color: #FFFFFF;
+}
+/*--------------------- MAIN --------------------------------*/
+main{
+    height: 88vh;
+    display: flex;
+}
+main section{
+    /*position: absolute;
+    top: 300px;*/
+    height: 50%;
+    margin: auto 0;
+}
+main .text{
+    margin: 0 0 0 50px;
+    width: 550px;
+    height: auto;
+    font-family: "SF Pro Display";
+    color: #FFFFFF;
+}
+main section .text h1{
+    font-size: 120px;
+    letter-spacing: 20px;
+}
+main section article .text p{
+    font-size: 34px;
+    font-family: "SF Pro Display";
+    text-align: justify;
+}
+main section .btn{
+    margin: 0 0 0 50px;
+    background: #fc6c14;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0.3, 0.3);
+}
+main section .btn:hover{
+    background: #fc6414;
+}
+main section button a{
+    text-decoration: none;
+    color: #eeeeee;
+    font-weight: bold;
+}
+main section button a:hover{
+    color: #FFFFFF;
+}
+main img{
+    position: absolute;
+    right: 50px;
+    bottom: 60px;
+    width: 80px;
+    height: auto;
+}
+/*--------------- FOOTER ------------------------------------*/
+.footer{
+    /*background: #cfcfcf;*/
+    padding: 10px 0 0 0;
+    text-align: center;
+    justify-content: center;
+}
+.footer p{
+    font-family: "SF Pro Display";
+    font-size: 8px;
+    color: #FFFFFF;
+    letter-spacing: 2px;
+}
