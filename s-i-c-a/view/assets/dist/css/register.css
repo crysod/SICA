@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "SF Pro Display";
+}
+body{
+    min-height: 100vh;
+    background-image: url("../img/pexels-vardan-harutyunyan-1733192.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+/*--------------- NAVBAR ------------------------------------*/
+/*-------DERECHA-----------*/
+.main-nav{
+    height: 50px;
+    list-style: none;
+    background: #238276;
+}
+.main-nav .main-nav_item{
+    display: inline-block;
+    margin: 10px 10px;
+    float: left;
+}
+.main-nav .main-nav_item a{
+    font-size: 16px;
+    text-decoration: none;
+    color: #eeeeee;
+}
+.main-nav .main-nav_item a:hover{
+    color: #fff;
+}
+.main-nav .main-nav_item a span:hover{
+    color: #eee;
+}
+.main-nav .main-nav_item a img{
+    width: 30px;
+    height: auto;
+    margin: auto 10px auto 0;
+}
+/*-------IZQUIERDA-----------*/
+.main-nav .login-container {
+    margin: 10px 0 0 0;
+    float: right;
+}
+input[type=text], input[type=password] {
+    padding: 4px;
+    font-size: 14px;
+    border: none;
+    width:120px;
+    border-radius: 10px;
+}
+.main-nav .login-container button[type=button] a{
+    text-decoration: none;
+    color: #EEEEEE;
+}
+.main-nav .login-container button[type=button] a:hover{
+    color: #FFFFFF;
+}
+.main-nav .login-container button[type=button]{
+    float: right;
+    padding: 4px 10px;
+    margin: 0 10px 0 5px;
+    background-color: #68Be4C;
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+    letter-spacing: 1px;
+    border-radius: 10px;
+}
+.main-nav .login-container button[type=submit]{
+    float: right;
+    padding: 4px 10px;
+    margin: 0 0 0 5px;
+    background-color: #fc6c14;
+    color: #eeeeee;
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.login-container button:hover {
+    background-color: green;
+}
+.login-container button[type=submit]:hover {
+    color: #FFFFFF;
+}
+/*----------- MAIN ------------------------------*/
+main{
+    height: 88vh;
+    width: 100%;
+    width: 90%;
+    margin: 0 auto;
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2);
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, .15);
+    backdrop-filter: blur(5px);
+}
+main div .col-12{
+    margin: 10px 0;
+}
+main div label, input{
+    margin-bottom: 10px;
+}
+main .content .container-fluid .container .row .col-12 table{
+    background: #ffffff;
+}
+main .content .container-fluid .container .row .col-12 table thead{
+    background: #238276;
+    color:#FFFFFF;
+}
+main .content .container-fluid .container .row .col-12 table thead tr td{
+    text-align: center;
+}
+tbody{
+    text-align: center;
+}
+

@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "SF Pro Display";
+}
+body{
+    min-height: 100vh;
+    background-image: url("../img/pexels-kaboompics-com-5980.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+/*--------------- NAVBAR ------------------------------------*/
+/*-------DERECHA-----------*/
+.main-nav{
+    height: 50px;
+    list-style: none;
+    background: #238276;
+}
+.main-nav .main-nav_item{
+    display: inline-block;
+    margin: 10px 10px;
+    float: left;
+}
+.main-nav .main-nav_item a{
+    font-size: 16px;
+    text-decoration: none;
+    color: #eeeeee;
+}
+.main-nav .main-nav_item a:hover{
+    color: #fff;
+}
+.main-nav .main-nav_item a span:hover{
+    color: #eee;
+}
+.main-nav .main-nav_item a img{
+    width: 30px;
+    height: auto;
+    margin: auto 10px auto 0;
+}
+/*-------IZQUIERDA-----------*/
+.main-nav .login-container {
+    margin: 10px 0 0 0;
+    float: right;
+}
+input[type=text], input[type=password] {
+    padding: 4px;
+    font-size: 14px;
+    border: none;
+    width:120px;
+    border-radius: 10px;
+}
+.main-nav .login-container button[type=button] a{
+    text-decoration: none;
+    color: #EEEEEE;
+}
+.main-nav .login-container button[type=button] a:hover{
+    color: #FFFFFF;
+}
+.main-nav .login-container button[type=button]{
+    float: right;
+    padding: 4px 10px;
+    margin: 0 10px 0 5px;
+    background-color: #68Be4C;
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+    letter-spacing: 1px;
+    border-radius: 10px;
+}
+.main-nav .login-container button[type=submit]{
+    float: right;
+    padding: 4px 10px;
+    margin: 0 0 0 5px;
+    background-color: #fc6c14;
+    color: #eeeeee;
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.login-container button:hover {
+    background-color: green;
+}
+.login-container button[type=submit]:hover {
+    color: #FFFFFF;
+}
+/*--------- MAIN -------------------------------------*/
+main{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+main section{
+    /*position: relative;
+    top: 90px;*/
+    justify-content: space-between;
+    max-width: 100vh;
+    width: 50%;
+    /*height: 70%;*/
+    /*background: #FFFFFF;*/
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2);
+    background-color: rgba(255, 255, 255, .15);
+    backdrop-filter: blur(5px);
+    padding: 40px 30px;
+    margin: auto auto;
+    border-radius: 10px;
+}
+main section h1{
+
+    text-align: center;
+    color: #FFFFFF;
+}
+main form button[type=submit]{
+    background: #FF6700;
+    color: #EEEEEE;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.2);
+}
+mian form button[type=submit]:hover{
+    color: #FFFFFF;
+}
+/*--------------- FOOTER ------------------------------------*/
+.footer{
+    padding: 10px 0 0 0;
+    text-align: center;
+    justify-content: center;
+}
+.footer p{
+    font-size: 8px;
+    color: #FFFFFF;
+    letter-spacing: 2px;
+}
